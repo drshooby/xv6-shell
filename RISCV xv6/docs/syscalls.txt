@@ -1,0 +1,34 @@
+ls system calls (27 unique)
+* mmap
+* newfstatat
+* close
+* read
+* mprotect
+* connect
+* socket
+* munmap
+* prctl
+* write
+* statfs
+* ioctl
+* access
+* lgetxattr
+* brk
+* statx
+* getxattr
+* lseek
+* arch_prctl
+* futex
+* set_tid_address
+* set_robust_list
+* prlimit64
+* getrandom
+* rseq
+* pread64
+* execve
+
+more calls:
+cat - fadvise64
+pwd - no new
+mkdir - no new
+cd - rt_sigprocmask, openat, rt_sigaction, sysinfo, getuid, getguid...(more)

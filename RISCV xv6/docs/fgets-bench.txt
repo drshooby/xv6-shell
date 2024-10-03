@@ -1,0 +1,4 @@
+@ Time,Syscalls
+base 17.40  52716
+opt1 16.17  47338
+opt2 6.902  28563

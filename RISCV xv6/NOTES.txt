@@ -1,0 +1,5 @@
+- Long pipeline w/ redirection out to file (contents printed to terminal)
+  input + output redirection works if there isn't a pipeline involved
+
+  tolower < 4.sh | blah > 5.sh
+
